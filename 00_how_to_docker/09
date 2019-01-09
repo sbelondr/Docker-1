@@ -1,3 +1,4 @@
 apt update && apt upgrade
-dpkg-reconfigure tzdata
+#dpkg-reconfigure tzdata
 apt install gcc git
+git config --global user.email "sbelondr@student.42.fr"
