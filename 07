@@ -1,0 +1,2 @@
+docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' overlord
+#docker inspect overlord | grep "\"IPAddress" -m 1 | cut -d "\"" -f 4
