@@ -1,3 +1,0 @@
-docker run --name Abathur -p 192.168.99.100:3000:3000 -it -v /Users/sbelondr/dockpy:/root/ python:2-slim python /root/app.py
-docker build -t oktest .
-docker run --name okok -i -p 192.168.99.100:3000:3000 -d oktest
