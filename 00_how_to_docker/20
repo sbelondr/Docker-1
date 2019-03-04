@@ -1,0 +1,3 @@
+docker-machine -s /sgoinfre/goinfre/Perso/sbelondr/Docker/Docker-data ssh Char
+docker swarm init --advertise-addr `ifconfig | grep 'addr:192' | cut -d ':' -f 2 | cut -d ' ' -f 1`
+#docker swarm init --advertise-addr 192.168.99.100

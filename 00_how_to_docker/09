@@ -1,0 +1,3 @@
+apt update && apt upgrade
+apt install gcc git
+git config --global user.email "sbelondr@student.42.fr"

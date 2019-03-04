@@ -1,0 +1,1 @@
+docker run --name roach-warden -d --link spawning-pool:mysql -p 8081:80 -e PMA_HOST=spawning-pool phpmyadmin/phpmyadmin

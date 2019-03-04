@@ -1,0 +1,3 @@
+docker run --name Abathur --mount type=bind,source=/Users/sbelondr/dockpy,target=/root -p 3000:3000 -it -d python:2-slim
+docker exec Abathur pip install flask
+docker exec -d Abathur python /root/app.py
